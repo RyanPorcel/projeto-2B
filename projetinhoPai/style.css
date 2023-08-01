@@ -1,0 +1,116 @@
+body{
+background-color: black;
+margin: 0;
+}
+h1{
+color: aliceblue;
+text-align: left;
+
+}
+p{
+text-align: center;
+color: aliceblue;
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+height: 70px;
+width: 200px; 
+}
+.cabecalho{
+background-image: -moz-linear-gradient(purple,black);
+    color:rgb(255, 255, 255) ;
+display:flex;
+padding:20px 5px ;
+margin: 1px ;
+width: 1909px; ;
+height:20px; ;
+}
+
+.lista-itens{
+    display: inline-block;
+    margin: 0 30px;
+    padding: 2px 0;
+    font-size: 24px;
+    font-family: 'Fasthand', cursive;
+    } 
+.h1{
+
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+ width: 20px;
+height:30px ;
+display: flex;
+float: left;
+}
+
+main{
+
+background: #00000054;
+padding: 5px 40px;
+margin-top: 20px;
+border-radius: 5px;
+ }
+ #primeiro{
+text-align: left;
+border-radius: 20px;
+
+}
+ .lista-itens:hover{
+    transform: scale(1.08);
+
+ }
+ .lista-series{
+    display: inline-block;
+    margin: 0 30px;
+    padding: 2px 0;
+    font-size: 24px;
+    font-family: 'Fasthand', cursive;
+    } 
+.lista-series:hover{
+    transform: scale(1.08);
+
+}
+.contander{
+background-color: purple;
+border-radius: 20px;
+display: flex;
+width: 550px;
+}
+ 
+.precobotao button{
+
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;    
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition:transform 100ms cubic-bezier(.73,-0.08,.67,2.43);
+    letter-spacing: 0,2em;
+    color: #ffffff;
+    background-color: #9966eb;
+    cursor: pointer;
+    outline: none;
+}
+
+.botaopreco button:hover{
+    background-color: #79b0a1;
+    transform: scale(1.08);
+}
+#segundo{
+    text-align: left;
+    border-radius: 20px;
+    width: 500px;
+height: 400px;
+}
+#terceiro{
+    text-align: left;
+    border-radius: 20px;
+    width: 520px;
+height: 380px;
+}
